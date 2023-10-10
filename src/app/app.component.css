@@ -501,7 +501,9 @@ a.contact_btn:hover {
     padding-left: 15px;
     width: auto !important;
 }
-
+.colorltr{
+    color: #FFF;
+}
 .Portfolio-box {
     text-align: center;
     width: 350px;
@@ -1750,6 +1752,7 @@ table th {
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   
   .circle {
@@ -1777,7 +1780,7 @@ table th {
     color: floralwhite;
   }
   th{
-    color: #218d2f;
+    color: #299a38;
   }
   
 
@@ -1807,8 +1810,82 @@ table th {
      font-size: 15px;
      line-height: 30px;
 }
+/* .fondoimg{
+    width:1443px ;
+    height: 800px;
+    background: url('src/assets/img/menudesayunoo.jpeg') center center/cover no-repeat;
 
+} */
 
+/* .fondoimgg{
+    
+    background: url('src/assets/img/menudesayunoo.jpeg') center center/cover no-repeat;
+
+} */
+.colorletra{
+    color: #2b9534;
+}
 tbo{
     border-bottom: 1px solid rgb(70, 70, 62);
 }
+
+
+
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .invitation-containerr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+  }
+  
+  .invitation {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  h6 {
+    color: #2b9534;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #e44d26;
+  }
+  
+  .invitation::before,
+  .invitation::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #fff);
+  }
+  
+  .invitation::before {
+    left: -20px;
+  }
+  
+  .invitation::after {
+    right: -20px;
+  }
+  
